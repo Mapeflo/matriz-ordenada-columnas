@@ -69,5 +69,13 @@ public class MatrizOrdenadaColumnas {
 
         // Mostrar matriz final
         imprimirMatriz(matriz, "Matriz Resultante (columnas ordenadas)");
+
+        // ========== COMPLEJIDAD TEMPORAL ==========
+        System.out.println("\n>>> COMPLEJIDAD TEMPORAL");
+        System.out.println("Selection Sort por cada columna: O(n²)");
+        System.out.println("Donde n = número de filas");
+        System.out.println("Como hay m columnas, la complejidad total es O(m * n²)");
+        System.out.println("En este ejemplo: 4 filas y 4 columnas → O(4 * 4²) = O(64)");
+
     }
 }
